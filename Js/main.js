@@ -1,3 +1,23 @@
+var acc = document.getElementsByClassName("accordian")
+var i
+
+for(i = 0; i<acc.length; i++){
+    acc[i].addEventListener("click", function(){
+        this.classList.toggle("active")
+
+        var panel = this.nextElementSibling
+
+        if(panel.style.maxHeight){
+            panel.style.maxHeight = null
+
+        }else{
+            panel.style.maxHeight = panel.scrollHeight + "px"
+        }
+    })
+}
+
+
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
@@ -27,3 +47,4 @@ const observer1 = new IntersectionObserver((entries) => {
 
 const hiddenElements1 =document.querySelectorAll('.app-hidden');
 hiddenElements1.forEach((el) => observer1.observe(el));
+

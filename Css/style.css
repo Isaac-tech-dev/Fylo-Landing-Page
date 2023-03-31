@@ -230,6 +230,48 @@ body{
 }
 
 
+/* FAQ's SECTION
+#faq{
+    width: 100%;
+}
+#faq h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Darkish-Grayish-Blue--);
+    margin-bottom: 25px;
+}
+.accordian{
+    padding: 20px;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    background: rgb(224, 222, 222);
+    text-align: left;
+    border: none;
+    transition: 0.4s all;
+}
+.panel{
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: 0.4s all;
+}
+.accordian::after{
+    content: '\02795';
+    float: right;
+    margin-left: 20px;
+}
+.active{
+    background: var(--Very-Dark-Blue--);
+}
+
+.active::after{
+    content: '\02796';
+} */
+
+
+
 /* FOOTER SECTION */
 footer{
     background: var(--Very-Dark-Blue--);
