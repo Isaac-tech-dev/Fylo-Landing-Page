@@ -230,7 +230,7 @@ body{
 }
 
 
-/* FAQ's SECTION
+/* FAQ's SECTION */
 #faq{
     width: 100%;
 }
@@ -268,7 +268,7 @@ body{
 
 .active::after{
     content: '\02796';
-} */
+}
 
 
 
